@@ -1465,29 +1465,7 @@ plt.show()
 
     
 ![png](Apresenta%C3%A7%C3%A3o_Projeto_Data_Science_Pr%C3%A1tico_files/Apresenta%C3%A7%C3%A3o_Projeto_Data_Science_Pr%C3%A1tico_53_0.png)
-    
-
-
-
-```python
-# Gráfico de barras empilhadas da distribuição das avaliações por categoria
-plt.figure(figsize=(12, 6))
-df.groupby(['categories', 'stars_x']).size().unstack().plot(kind='bar', stacked=True)
-plt.xlabel('Categoria')
-plt.ylabel('Contagem de Avaliações')
-plt.title('Distribuição das Avaliações por Categoria')
-plt.legend(title='Estrelas')
-plt.show()
-```
-
-
-    <Figure size 1200x600 with 0 Axes>
-
-
-
-    
-![png](Apresenta%C3%A7%C3%A3o_Projeto_Data_Science_Pr%C3%A1tico_files/Apresenta%C3%A7%C3%A3o_Projeto_Data_Science_Pr%C3%A1tico_54_1.png)
-    
+        
 
 
 
