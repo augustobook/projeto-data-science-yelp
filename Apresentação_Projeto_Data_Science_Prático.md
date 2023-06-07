@@ -1364,74 +1364,6 @@ df
 </table>
 <p>6897903 rows × 30 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-33f1471c-3c33-4364-826c-700ecf8c7af1')"
-              title="Convert this dataframe to an interactive table."
-              style="display:none;">
-      </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      flex-wrap:wrap;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-33f1471c-3c33-4364-826c-700ecf8c7af1 button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-33f1471c-3c33-4364-826c-700ecf8c7af1');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
   </div>
 
 
@@ -1592,18 +1524,6 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 ```
-
-    [nltk_data] Downloading package stopwords to /root/nltk_data...
-    [nltk_data]   Unzipping corpora/stopwords.zip.
-    [nltk_data] Downloading package punkt to /root/nltk_data...
-    [nltk_data]   Unzipping tokenizers/punkt.zip.
-    
-
-
-
-
-    True
-
 
 
 
